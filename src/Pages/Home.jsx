@@ -17,13 +17,20 @@ function Home({ handleActive, active }) {
 
       <h1>About HH Mechanical</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro
-        nisi corporis quas! Odit fuga nemo libero quidem. Voluptates autem ea,
-        velit quia eveniet in quasi molestias iure suscipit minima. Lorem ipsum
-        dolor, sit amet consectetur adipisicing elit. <br />
-        <br /> Neque quibusdam velit veniam earum obcaecati ipsam, ratione quis.
-        Dolore perferendis, corrupti autem iure, quaerat cumque odio, voluptatum
-        odit officia facere aspernatur!
+        HH Mechanical is your trusted choice for mobile mechanical services in
+        Adelaide. As a sole trader, we take pride in offering professional and
+        reliable automotive solutions right to your doorstep. With years of
+        experience and expertise in the field, we specialize in diagnosing,
+        repairing, and maintaining a wide range of vehicles, ensuring optimal
+        performance and safety on the road. Our commitment to customer
+        satisfaction drives us to deliver top-notch service with transparency
+        and integrity.
+        <br />
+        <br />
+        Whether it's routine maintenance, complex repairs, or emergency
+        assistance, you can count on HH Mechanical to keep you moving smoothly.
+        Experience convenience and quality with our mobile mechanic services,
+        tailored to meet your automotive needs.
       </p>
       <img id="homePageImage" src={homePageImage} alt="Mechanic working" />
     </motion.div>
