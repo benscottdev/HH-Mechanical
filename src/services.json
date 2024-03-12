@@ -1,0 +1,17 @@
+[
+  {
+    "title": "General Servicing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisl posuere, tempor turpis id, interdum augue. In hac habitasse platea dictumst. Maecenas laoreet, lorem non mollis cursus, augue metus aliquam metus, at suscipit enim dui et purus.",
+    "image": "./Assets/HomePageImage.jpg"
+  },
+  {
+    "title": "Suspension",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisl posuere, tempor turpis id, interdum augue. In hac habitasse platea dictumst. Maecenas laoreet, lorem non mollis cursus, augue metus aliquam metus, at suscipit enim dui et purus.",
+    "image": "image here"
+  },
+  {
+    "title": "Upgrades",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget nisl posuere, tempor turpis id, interdum augue. In hac habitasse platea dictumst. Maecenas laoreet, lorem non mollis cursus, augue metus aliquam metus, at suscipit enim dui et purus.",
+    "image": "image here"
+  }
+]

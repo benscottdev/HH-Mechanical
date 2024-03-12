@@ -1,0 +1,299 @@
+@font-face {
+  font-family: "Bank Printer";
+  src: url("./Assets/F25_Bank_Printer.otf");
+}
+@font-face {
+  font-family: "Gemsbuck";
+  src: url("./Assets/Gemsbuck01Black-axn2g.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: repeating-linear-gradient(
+      90deg,
+      rgba(161, 161, 161, 0.03) 0px,
+      rgba(161, 161, 161, 0.03) 1px,
+      transparent 1px,
+      transparent 96px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(161, 161, 161, 0.03) 0px,
+      rgba(161, 161, 161, 0.03) 1px,
+      transparent 1px,
+      transparent 96px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(161, 161, 161, 0.03) 0px,
+      rgba(161, 161, 161, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(161, 161, 161, 0.03) 0px,
+      rgba(161, 161, 161, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+}
+
+.navLinks {
+  z-index: 1;
+  width: 25%;
+  height: 100dvh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(32, 32, 32);
+  transition: 0.5s ease;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  filter: drop-shadow(10px 0px 15px rgb(27, 27, 27));
+}
+
+#closeNav {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  font-family: "Gemsbuck";
+  border: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#closeNav:hover {
+  border: 1px solid orange;
+  background-color: transparent;
+  color: orange;
+}
+
+.navToggleBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  font-family: "Gemsbuck";
+  border: none;
+}
+
+.navToggleBtn:hover {
+  border: 1px solid orange;
+  background-color: transparent;
+  color: orange;
+}
+
+#hide {
+  position: absolute;
+  top: 0px;
+  left: -500px;
+  transition: 1s ease;
+}
+
+.navLinks img {
+  width: 200px;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#servicesLink,
+#reviewsLink,
+#bookNowBtn {
+  color: white;
+  font-family: "Bank Printer";
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+#bookNowBtn {
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.socialLink img {
+  width: 40px;
+  margin: 5px;
+}
+
+.homePage {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homePage h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Gemsbuck";
+  color: orange;
+}
+
+.homePage p {
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  color: white;
+  width: 50%;
+}
+
+#homePageImage {
+  border-radius: 30px;
+  filter: drop-shadow(0px 0px 15px rgb(21, 21, 21));
+}
+
+.servicesPage {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100%;
+}
+
+.servicesItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.servicesItem h1 {
+  font-family: "Gemsbuck";
+  font-size: 40px;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.servicesItem p {
+  font-family: Helvetica;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.servicesItem img {
+  border-radius: 20px;
+  filter: drop-shadow(0px 0px 15px black);
+  margin-bottom: 70px;
+}
+
+.reviewsPage {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100%;
+}
+
+.reviewItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.reviewItem h1 {
+  font-family: "Gemsbuck";
+  font-size: 40px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.reviewItem h3 {
+  font-family: Helvetica;
+  color: white;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.reviewItem p {
+  font-family: Helvetica;
+  color: white;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 450px) {
+  .navLinks {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .homePage h1 {
+    font-size: 24px;
+  }
+  .homePage p {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  #homePageImage {
+    width: 325px;
+  }
+  .servicesPage {
+    margin-top: 150px;
+  }
+
+  .servicesItem {
+    width: 300px;
+  }
+
+  .servicesItem h1 {
+    font-size: 24px;
+  }
+
+  .servicesItem img {
+    width: 300px;
+  }
+
+  .reviewsPage {
+    margin-top: 150px;
+  }
+
+  .reviewItem {
+    width: 300px;
+  }
+
+  .reviewItem h1 {
+    font-size: 24px;
+  }
+
+  .reviewItem h3 {
+    font-size: 20px;
+  }
+}
