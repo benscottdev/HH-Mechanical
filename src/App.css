@@ -330,6 +330,10 @@ body {
     border-radius: 0;
   }
 
+  .homePage {
+    margin-top: 50px;
+  }
+
   .homePage h1 {
     font-size: 22px;
   }
