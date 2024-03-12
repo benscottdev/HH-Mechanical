@@ -71,7 +71,7 @@ body {
   cursor: pointer;
   width: 30px;
   height: 30px;
-  background-color: orange;
+  background-color: #ff6600;
   color: white;
   font-family: "Gemsbuck";
   border: none;
@@ -81,9 +81,9 @@ body {
 }
 
 #closeNav:hover {
-  border: 1px solid orange;
+  border: 1px solid #ff6600;
   background-color: transparent;
-  color: orange;
+  color: #ff6600;
 }
 
 .navToggleBtn {
@@ -93,16 +93,16 @@ body {
   left: 10px;
   width: 80px;
   height: 40px;
-  background-color: orange;
+  background-color: #ff6600;
   color: white;
   font-family: "Gemsbuck";
   border: none;
 }
 
 .navToggleBtn:hover {
-  border: 1px solid orange;
+  border: 1px solid #ff6600;
   background-color: transparent;
-  color: orange;
+  color: #ff6600;
 }
 
 #hide {
@@ -133,10 +133,22 @@ body {
   font-size: 25px;
 }
 
+#servicesLink:hover,
+#reviewsLink:hover {
+  color: #ff6600;
+}
+
 #bookNowBtn {
-  background-color: orange;
+  background-color: #ff6600;
   padding: 10px 20px;
   border-radius: 10px;
+  border: 1px solid #ff6600;
+}
+
+#bookNowBtn:hover {
+  color: #ff6600;
+
+  background-color: transparent;
 }
 
 .socialLink img {
@@ -157,7 +169,7 @@ body {
   font-size: 40px;
   margin-bottom: 20px;
   font-family: "Gemsbuck";
-  color: orange;
+  color: #ff6600;
 }
 
 .homePage p {
@@ -193,7 +205,7 @@ body {
 .servicesItem h1 {
   font-family: "Gemsbuck";
   font-size: 40px;
-  color: orange;
+  color: #ff6600;
   margin-bottom: 20px;
 }
 
@@ -231,7 +243,7 @@ body {
 .reviewItem h1 {
   font-family: "Gemsbuck";
   font-size: 40px;
-  color: orange;
+  color: #ff6600;
   margin-bottom: 10px;
 }
 
@@ -247,6 +259,69 @@ body {
   font-family: Helvetica;
   color: white;
   margin-bottom: 100px;
+}
+
+.bookNow {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bookNow h1 {
+  color: #ff6600;
+  font-family: "Gemsbuck";
+  margin-bottom: 10px;
+}
+
+.bookNow b {
+  color: #ff6600;
+}
+
+.bookNow p {
+  width: 700px;
+  font-family: "Helvetica";
+  color: white;
+  font-size: 18px;
+}
+
+.bookNowForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bookNowForm input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.bookNowForm textarea {
+  margin-bottom: 50px;
+}
+
+.bookNowForm button {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ff6600;
+  color: white;
+  font-family: "Gemsbuck";
+  border: none;
+}
+
+.bookNowForm button:hover {
+  background-color: transparent;
+  color: #ff6600;
+  border: 1px solid #ff6600;
 }
 
 @media (max-width: 450px) {

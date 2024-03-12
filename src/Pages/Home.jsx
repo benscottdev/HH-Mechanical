@@ -8,16 +8,15 @@ function Home({ handleActive, active }) {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 1 }}
       transition={{ duration: 1, delay: 0.2 }}
       className="homePage"
     >
       <NavToggleButton handleActive={handleActive} />
       <NavBar active={active} handleActive={handleActive} />
 
-      <h1>About HH Mechanical</h1>
+      <h1>About The Workshop</h1>
       <p>
-        HH Mechanical is your trusted choice for mobile mechanical services in
+        The Workshop is your trusted choice for mobile mechanical services in
         Adelaide. As a sole trader, we take pride in offering professional and
         reliable automotive solutions right to your doorstep. With years of
         experience and expertise in the field, we specialize in diagnosing,
@@ -28,7 +27,7 @@ function Home({ handleActive, active }) {
         <br />
         <br />
         Whether it's routine maintenance, complex repairs, or emergency
-        assistance, you can count on HH Mechanical to keep you moving smoothly.
+        assistance, you can count on The Workshop to keep you moving smoothly.
         Experience convenience and quality with our mobile mechanic services,
         tailored to meet your automotive needs.
       </p>
