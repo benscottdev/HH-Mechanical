@@ -13,7 +13,7 @@ function Services({ handleActive, active }) {
           <div className="servicesItem" key={index}>
             <h1>{service.title}</h1>
             <p>{service.description}</p>
-            <img src={HomePageImage} alt={`Image of ${services.title}`} />
+            <img src={HomePageImage} alt={`${services.title}`} />
           </div>
         );
       })}
