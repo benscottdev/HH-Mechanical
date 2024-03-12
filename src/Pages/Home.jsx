@@ -1,10 +1,17 @@
 import NavBar from "../Components/NavBar";
 import homePageImage from "../Assets/HomePageImage.jpg";
 import NavToggleButton from "../Components/NavToggleButton";
+import { motion } from "framer-motion";
 
 function Home({ handleActive, active }) {
   return (
-    <div className="homePage">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 1 }}
+      transition={{ duration: 1, delay: 0.2 }}
+      className="homePage"
+    >
       <NavToggleButton handleActive={handleActive} />
       <NavBar active={active} handleActive={handleActive} />
 
@@ -19,7 +26,7 @@ function Home({ handleActive, active }) {
         odit officia facere aspernatur!
       </p>
       <img id="homePageImage" src={homePageImage} alt="Mechanic working" />
-    </div>
+    </motion.div>
   );
 }
 export default Home;

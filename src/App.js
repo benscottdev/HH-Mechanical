@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./Pages/Home";
 import Reviews from "./Pages/Reviews";
 import Services from "./Pages/Services";
@@ -7,14 +7,14 @@ import { useState } from "react";
 
 function App() {
   const [active, setActive] = useState(false);
+  const location = useLocation();
 
-  function handleActive(e) {
-    e.preventDefault();
+  function handleActive() {
     setActive(!active);
   }
 
   return (
-    <Routes>
+    <Routes location={location} key={location.pathname}>
       <Route
         path="/"
         element={<Home handleActive={handleActive} active={active} />}

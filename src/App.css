@@ -49,6 +49,17 @@ body {
     linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 
+.slideIn {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: black;
+}
+.slideOut {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: black;
+}
+
 .navLinks {
   z-index: 1;
   width: 25%;
